@@ -51,7 +51,7 @@ window.addEventListener('error', function(e) {
 });
 
 window.onload = function() {
-	_tera_client_proxy_.resize_to(300, 800);
+	_tera_client_proxy_.resize_to(400, 800);
 	_tera_client_proxy_.set_title('Titles');
 	init();
 };

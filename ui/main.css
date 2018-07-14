@@ -1,5 +1,5 @@
 #title-list .list {
-	border: 1px solid #2f2f2f;
+	border: 1px solid #ddd;
 	border-radius: 5px;
 	font-family: sans-serif;
 	font-size: 14px;
@@ -9,8 +9,8 @@
 }
 
 #title-list li {
-	background-color: #2f2f2f;
-	color: white;
+	background-color: #ddd;
+	color: black;
 	display: block;
 	line-height: 2.0;
 	text-align: center;
@@ -18,7 +18,7 @@
 }
 
 #title-list li:hover {
-	background-color: #555;
+	background-color: #ccc;
 	cursor: pointer;
 }
 

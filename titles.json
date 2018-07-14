@@ -788,6 +788,10 @@
         "title": "Dreamy"
     },
     {
+        "id": 340,
+        "title": "place-holder"
+    },
+    {
         "id": 347,
         "title": "Soloist"
     },
@@ -1768,6 +1772,10 @@
         "title": "Abyss Raider"
     },
     {
+        "id": 2069,
+        "title": "The Immortal"
+    },
+    {
         "id": 5993,
         "title": "Hometown Hero"
     },
@@ -1790,6 +1798,54 @@
     {
         "id": 98103,
         "title": "Jailer"
+    },
+    {
+        "id": 99101,
+        "title": "The Grand Champion of Champion's Skyring"
+    },
+    {
+        "id": 99102,
+        "title": "The Champion of Champion's Skyring"
+    },
+    {
+        "id": 99103,
+        "title": "The Grand Champion of Fraywind Canyon"
+    },
+    {
+        "id": 99104,
+        "title": "The Champion of Fraywind Canyon"
+    },
+    {
+        "id": 99105,
+        "title": "The Grand Champion of Corsairs' Stronghold"
+    },
+    {
+        "id": 99106,
+        "title": "The Champion of Corsairs' Stronghold"
+    },
+    {
+        "id": 99111,
+        "title": "Abyssal Guardian"
+    },
+    {
+        "id": 99112,
+        "title": "The One Who Stared into the Abyss"
+    },
+    {
+        "id": 99113,
+        "title": "Phantasm Breaker"
+    },
+    {
+        "id": 99114,
+        "title": "Phantasm Destroyer"
+    },
+    {
+        "id": 99115,
+        "title": "Petrax Master"
+    },
+    {
+        "id": 99116,
+        "title": "Petrax Trainer"
     },
     {
         "id": 999,
@@ -2060,6 +2116,10 @@
         "title": "Master Fighter"
     },
     {
+        "id": 520048,
+        "title": "Founder"
+    },
+    {
         "id": 520049,
         "title": "Annihilator"
     },
@@ -2084,19 +2144,15 @@
         "title": "Lore GrandMaster"
     },
     {
-        "id": 11101,
-        "title": "Bounty Hunter"
+        "id": 525003,
+        "title": "Lore Apprentice"
     },
     {
-        "id": 11201,
-        "title": "Player Killer"
+        "id": 525004,
+        "title": "Lore Master"
     },
     {
-        "id": 11301,
-        "title": "Dungeon Master"
-    },
-    {
-        "id": 11501,
-        "title": "Lightning"
+        "id": 525005,
+        "title": "Lore GrandMaster"
     }
 ]
