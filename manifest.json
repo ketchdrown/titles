@@ -1,6 +1,6 @@
 {
     "files": {
-        "index.js": "77605471fdf0c9be86f642d8bb26822d56821cbfd524fd0777918f01b4b62ac7",
+        "index.js": "63ebb5a9a1e6ea19065ef2ef0006474c4d0bf3072149d2a4443b4159848adc38",
         "module.json": "96c60ae6edb0b6c090598e5493652ed30e763e8f16fcae9a0256c258f6b91301",
         "titles.json": "c4592db80f276214c3cc007df56fbf7dd97a03361f50c804325c4586f3e2c9bc",
         "ui/index.html": "19cb13d30c4ff166102ed05f3a8049073742377ba50902c1865954d99d741068",
@@ -10,7 +10,7 @@
     },
     "defs": {
         "C_APPLY_TITLE": 1,
-        "S_APPLY_TITLE": 3,
+        "S_APPLY_TITLE": [2,3],
         "S_LOGIN": 14
     }
 }

@@ -3,7 +3,13 @@ const path = require('path');
 
 module.exports = function TeraTitles(dispatch) {
 	
-	const { UI } = dispatch;
+	const { UI } = (() => {
+		try {
+			return dispatch;
+		} catch(e) {
+			console.warn('[titles] ui module not found. UI functionality will be unavailable.');
+		}
+	})();
 	
 	const { command } = dispatch;
 	
@@ -19,9 +25,10 @@ module.exports = function TeraTitles(dispatch) {
 	// UI WILL BE FIXED SOON FOR NOW USED IDs FROM titles.json
 
 	if(UI) {
-		dispatch.ui.use('/titles/', dispatch.ui.static(__dirname + '/ui'));
+		ui = UI(dispatch);
+		ui.use('/titles/', UI.static(__dirname + '/ui'));
 		
-		dispatch.ui.get('/titles/api/*', (req, res) => {
+		ui.get('/titles/api/*', (req, res) => {
 			let data = req.params[0].split(";");
 			let request = data.shift();
 
@@ -35,7 +42,7 @@ module.exports = function TeraTitles(dispatch) {
 				}
 				case "title": {
 					let title = parseInt(data[0]);
-					dispatch.send('S_APPLY_TITLE', 3, { gameId, title });
+					dispatch.send('S_APPLY_TITLE', 2, { gameId, title });
 					playerTitles[name] = title;
 					saveTitles();
 					currentTitle = title;
