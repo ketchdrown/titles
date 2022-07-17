@@ -6,7 +6,7 @@ module.exports = function TeraTitles(dispatch) {
 	const { UI } = (() => {
 		try {
 			return dispatch;
-		} catch(e) {
+		} catch (e) {
 			console.warn('[titles] ui module not found. UI functionality will be unavailable.');
 		}
 	})();
