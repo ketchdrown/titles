@@ -72,11 +72,11 @@ module.exports = function TeraTitles(dispatch) {
 			playerTitles[name] = title;
 			saveTitles();
 			currentTitle = title;
-			command.message('[titles] Title changed to ID: ' + title);
+			command.message(' Title changed to ID: ' + title);
 		} else if(UI) {
 			dispatch.ui.open('/titles/');
 		} else {
-			command.message('[titles] UI unavailable. Title ID required.');
+			command.message(' UI unavailable. Title ID required.');
 		}
 	});
 	
