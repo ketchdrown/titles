@@ -6,6 +6,7 @@ Lets you choose from a variety of titles to use for your character client-side o
 
 * Move C_APPLY_TITLE.1.def -> Toolbox -> data -> definitions
 * Move protocol.map -> Toolbox -> data -> opcodes
+* After that restart proxy/toolbox
 * I will fix UI soon
 * Please, report me any bugs
 
