@@ -1,0 +1,16 @@
+{
+    "files": {
+        "index.js": "166adbaa8201d166a13629557d46076f51e90c946f650ae6f1588ee650f34968",
+        "module.json": "96c60ae6edb0b6c090598e5493652ed30e763e8f16fcae9a0256c258f6b91301",
+        "titles.json": "c4592db80f276214c3cc007df56fbf7dd97a03361f50c804325c4586f3e2c9bc",
+        "ui/index.html": "19cb13d30c4ff166102ed05f3a8049073742377ba50902c1865954d99d741068",
+        "ui/list.min.js": "62a388a7833280dc7dfe5716af9969711f3c2a2fcc34c5af249907d1e2be7c73",
+        "ui/main.css": "3bec053d4d076eaf8acff6012a05dabbaaf6e07c2395b87a63f6ebd3a59608e9",
+        "ui/main.js": "0341b9f1fadb02852ac3407e6df415fa34b2f97ebf6a8fb61579d41171ac6331"
+    },
+    "defs": {
+        "C_APPLY_TITLE": 1,
+        "S_APPLY_TITLE": 3,
+        "S_LOGIN": 14
+    }
+}

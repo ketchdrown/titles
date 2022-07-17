@@ -1,0 +1,16 @@
+{
+    "disableAutoUpdate": false,
+    "name": "titles",
+    "author": "&nbsp;<font color='#FFC0CB'>menmaa/ketchdrown</font>",
+    "description": "Lets you choose from a variety of titles to use for your character client-side only.",
+    "version": "1.0",
+    "options": {
+        "niceName": "<font color='#FFC0CB'> Titles </font>",
+        "reloadable": true
+    },
+    "dependencies": {
+        "ui": "https://raw.githubusercontent.com/HakuryuuDom/ui/master/module.json"
+    },
+    "servers": ["https://raw.githubusercontent.com/ketchdrown/titles/master/"],
+    "supportUrl": "https://github.com/ketchdrown/titles/issues/"
+}
